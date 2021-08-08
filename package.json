@@ -25,7 +25,7 @@
 	],
 	"dependencies": {
 		"inspect-with-kind": "^1.0.5",
-		"piexifjs": "^2.0.0-beta.7"
+		"piexifjs": "2.0.0-beta.7"
 	},
 	"devDependencies": {
 		"@shinnn/eslint-config": "^6.10.0",

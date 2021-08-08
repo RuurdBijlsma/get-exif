@@ -3,7 +3,8 @@
 const buffer = require('buffer');
 const {inspect} = require('util');
 
-const {constants: {Types: {Ascii, Rational, SRational}}, load, Tags: {Exif}, TagValues: {ExifIFD}} = require('piexifjs');
+const beforeDestruct = require('piexifjs');
+const {constants: {Types: {Ascii, Rational, SRational}}, load, Tags: {Exif}, TagValues: {ExifIFD}} = beforeDestruct;
 const inspectWithKind = require('inspect-with-kind');
 
 const MINIMUM_JPEG_SIZE = 107;
